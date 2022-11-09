@@ -1,0 +1,70 @@
+/* Blue theme styles */
+/* Variables */
+/* footer */
+/* helpers */
+/* colors */
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-image: url("../../../static/images/theme/abstract-wedding/body-bg-dark.png");
+  }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: 'Lato', sans-serif; }
+
+
+.badge {
+  background-color: #CA38E8; }
+
+/* Content */
+#information > .card-unstyled {
+  background-color: #e5f9f9; }
+  #information > .card-unstyled .card-icon {
+    background-color: #75e0e4; }
+  #information > .card-unstyled:nth-child(even) {
+    background-color: #fdecf3; }
+    #information > .card-unstyled:nth-child(even) .card-icon {
+      background-color: #e82199; }
+
+#payment .grid-col:nth-child(3n+1) > .card-unstyled {
+  border-color: #e82199; }
+  #payment .grid-col:nth-child(3n+1) > .card-unstyled > :before {
+    background-color: #e82199; }
+  #payment .grid-col:nth-child(3n+1) > .card-unstyled > :after {
+    background-color: #e82199; }
+
+#payment .grid-col:nth-child(3n+2) > .card-unstyled {
+  border-color: #FFD657; }
+  #payment .grid-col:nth-child(3n+2) > .card-unstyled > :before {
+    background-color: #FFD657; }
+  #payment .grid-col:nth-child(3n+2) > .card-unstyled > :after {
+    background-color: #FFD657; }
+
+#payment .grid-col:nth-child(3n) > .card-unstyled {
+  border-color: #75e0e4; }
+  #payment .grid-col:nth-child(3n) > .card-unstyled > :before {
+    background-color: #75e0e4; }
+  #payment .grid-col:nth-child(3n) > .card-unstyled > :after {
+    background-color: #75e0e4; }
+
+/* Footer */
+footer {
+  font-size: 0.9rem; }
+  footer .footer-bar {
+    background-color: #EAF4F4;
+    border-bottom: solid 1px #D1D3D4;
+    color: #6D6E71; }
+  footer .footer-block {
+    background-color: #B2DBDA;
+    border-bottom: solid 1px #D1D3D4;
+    color: #6D6E71; }
+    footer .footer-block a {
+      color: #6D6E71; }
+  footer .footer-bottom {
+    background-color: #FFFFFF;
+    color: #6D6E71; }
+    footer .footer-bottom a {
+      color: #6D6E71; }
